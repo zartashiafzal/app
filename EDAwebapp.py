@@ -19,7 +19,7 @@ with st.sidebar.header("Upload your dataset in (.csv)"):
     uploaded_file= st.sidebar.file_uploader("upload your file", type=["csv"])
     # you  can also add a data example to display for user help
     df= sns.load_dataset('titanic')
-    st.sidebar.markdown("[Example CSV file](https://www.kaggle.com/louise2001/quantum-physics-articles-on-arxiv-1994-to-2009/download))")
+    st.sidebar.markdown("[Example CSV file](https://raw.githubusercontent.com/AammarTufail/machinelearning_ka_chilla/master/Sastaticket_datasets/sastaticket_test.csv))")
     
     # Profiling report for Pandas 
 
